@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="kinth-frame-manage-web">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/resources"/>
+        <dependent-module archiveName="kinth-frame-util.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kinth-frame-util/kinth-frame-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kinth-frame-service.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kinth-frame-service/kinth-frame-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="kinth-frame-manage-controller.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/kinth-frame-manage-controller/kinth-frame-manage-controller">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="kinth-frame-manage-web"/>
+        <property name="java-output-path" value="/kinth-frame-manage-web/build/classes"/>
+    </wb-module>
+</project-modules>
