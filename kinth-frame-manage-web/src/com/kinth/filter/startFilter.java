@@ -25,7 +25,6 @@ import com.kinth.util.Tools;
 /**
  * 启动tomcat时运行此类
  * 创建人：wuzhuyang
- * 创建时间：2014年2月17日
  * @version
  */
 public class startFilter extends BaseController implements Filter{
