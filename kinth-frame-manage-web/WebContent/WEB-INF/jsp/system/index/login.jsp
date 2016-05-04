@@ -27,7 +27,7 @@
 				id="loginForm">
 				<div class="control-group normal_text">
 					<h3>
-						<img src="static/login/logo.png" alt="Logo" />
+						<!-- <img src="static/login/logo.png" alt="Logo" /> -->
 					</h3>
 				</div>
 				<div class="control-group">
@@ -48,20 +48,12 @@
 						</div>
 					</div>
 				</div>
-				<div style="float:right;padding-right:10%;">
-					<div style="float: left;margin-top:3px;margin-right:2px;">
-						<font color="white">记住密码</font>
-					</div>
-					<div style="float: left;">
-						<input name="form-field-checkbox" id="saveid" type="checkbox"
-							onclick="savePaw();" style="padding-top:0px;" />
-					</div>
-				</div>
+				
 				<div class="form-actions">
 					<div style="width:86%;padding-left:8%;">
 
 						<div style="float: left;padding-top:2px;">
-							<i><img src="static/login/yan.png" /></i>
+							<i style="font-size: 14px;color: red;"><!-- <img src="static/login/yan.png" /> -->验证码：</i>
 						</div>
 						<div style="float: left;" class="codediv">
 							<input type="text" name="code" id="code" class="login_code"
@@ -71,7 +63,14 @@
 							<i><img style="height:22px;" id="codeImg" alt="点击更换"
 								title="点击更换" src="" /></i>
 						</div>
-						<span class="pull-right" style="padding-right:3%;"><a href="javascript:quxiao();" class="btn btn-success">取消</a></span>
+						<!-- <span class="pull-right" style="padding-right:3%;"><a href="javascript:quxiao();" class="btn btn-success">取消</a></span> -->
+						<div style="float: left;margin-top:3px;margin-left:20px;">
+						<font color="white">记住我</font>
+					</div>
+					<div style="float: left;">
+						<input name="form-field-checkbox" id="saveid" type="checkbox"
+							onclick="savePaw();" style="padding-top:0px;" />
+					</div>
 						<span class="pull-right"><a onclick="severCheck();" class="flip-link btn btn-info" id="to-recover">登录</a></span>
 					</div>
 				</div>
@@ -83,14 +82,14 @@
 			</div>
 		</div>
 	</div>
-	<div id="templatemo_banner_slide" class="container_wapper">
+	<!-- <div id="templatemo_banner_slide" class="container_wapper">
 		<div class="camera_wrap camera_emboss" id="camera_slide">
 			<div data-src="static/login/images/banner_slide_01.jpg"></div>
 			<div data-src="static/login/images/banner_slide_02.jpg"></div>
 			<div data-src="static/login/images/banner_slide_03.jpg"></div>
 		</div>
-		<!-- #camera_wrap_3 -->
-	</div>
+		#camera_wrap_3
+	</div> -->
 
 	<script type="text/javascript">
 		//服务器校验

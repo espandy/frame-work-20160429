@@ -4,6 +4,7 @@ html, body {    width: 100%;}
 body {
  overflow-x: hidden;
  margin-top: -10px;  font-family: 'Open Sans', sans-serif; font-size:12px; color:#666;
+  background-color: #0b679e !important;
 }
 a{color:#666;}
 a:hover, a:focus {
@@ -29,9 +30,9 @@ hr{ border-top-color:#dadada;}
 /*Metro Background color class*/
 .bg_lb{ background:#27a9e3;}
 .bg_db{ background:#2295c9;}
-.bg_lg{ background:#28b779;}
+.bg_lg{ background:#99CCCC;}
 .bg_dg{ background:#28b779;}
-.bg_ly{ background:#ffb848;}
+.bg_ly{ background:#3399CC;}
 .bg_dy{ background:#da9628;}
 .bg_ls{ background:#2255a4;}
 .bg_lo{ background:#da542e;}
@@ -47,7 +48,7 @@ body {   padding: 0;    margin-top:0px;margin: 0px;}
 #loginbox { overflow: hidden !important; z-index: 100;  text-align: center;  position: relative; margin-top:10%;}
 
 /* #loginbox form{ width:100%; background:#2E363F; position:relative; top:0; left:0; } */
-/*#loginbox form{ width:100%; background-color: rgba(0, 0, 0, 0.5);  position:relative; top:0; left:0; }原来样式*/
+/*#loginbox form{ width:100%; background-color: rgba(0, 0, 0, 0.5);  position:relative; top:0; left:0; }原锟斤拷锟斤拷式*/
 #loginbox form{ width:100%; background-color: rgba(0, 0, 0, 0.1);  position:relative; top:0; left:0; }
 
 #loginbox .form-actions { padding: 14px 20px 15px;}
@@ -60,7 +61,7 @@ body {   padding: 0;    margin-top:0px;margin: 0px;}
 #loginbox .main_input_box input{ height:30px; border:0px; display:inline-block; width:75%; line-height:28px;  margin-bottom:3px;}
 #loginbox .controls{ padding:0 20px;}
 #loginbox .control-group{ padding:20px 0; margin-bottom:0px;}
-.form-vertical, .form-actions {  margin-bottom: 0; background:none; border-top:1px solid #3f4954; }
+.form-vertical, .form-actions {  margin-bottom: 0; background:none; border-top:1px solid #408080; }
 
 /* #loginbox .normal_text{ padding:15px 10px; text-align:center; font-size:14px; line-height:20px; background:#2E363F; color:#fff; } */
 
